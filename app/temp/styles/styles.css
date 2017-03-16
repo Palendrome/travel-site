@@ -473,28 +473,32 @@ img {
 
 .large-hero {
 	position: relative;
+
 }
 
 .large-hero__text-content {
-	position:absolute;
-	left:0;
-	top:50%;
-	-webkit-transform: translateY(-50%);
-	        transform: translateY(-50%);
-	width:100%;
-	text-align:center;
+  position:absolute;
+  left:0;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width:100%;
+  text-align:center;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
-	color:#333;
+.large-hero__title{
+  font-weight:300;
+  color: #2f5572;
+  font-size:4.8rem;
 }
 
-img {
-	max-width: 100%;
-	height:auto;
-	
+.large-hero__subtitle{
+  font-weight:300;
+  color: #2f5572;
+  font-size:2.9rem;
 }
+
+
 
 
 
