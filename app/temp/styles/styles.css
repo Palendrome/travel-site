@@ -780,12 +780,8 @@ a {
 }
 
 .feature-item {
-	position:relative;
-	
-	padding-bottom: 2.5rem;
-	
-	
-		
+  position: relative;
+  padding-bottom: 2.5rem;
 }
 
 @media(min-width:530px) {
@@ -796,13 +792,13 @@ a {
 }
 
 .feature-item__icon {
-  display:block;
+  display: block;
   margin: 0 auto;
 }
 
 @media(min-width:530px) {
 
-  .feature-item {
+  .feature-item__icon {
     position: absolute;
     left: 0;
   }
@@ -813,7 +809,7 @@ a {
   font-weight: 300;
   margin-top: .7em;
   margin-bottom: .8rem;
-  text-align:center;
+  text-align: center;
 }
 
 @media(min-width:530px) {
